@@ -444,6 +444,7 @@ p {
   .track {
     width: 100%;
     gap: var(--s-64);
+    margin-bottom: 9.38rem;
   }
 
   .track-header {
@@ -458,5 +459,93 @@ p {
 
   .track-features {
     text-align: left;
+  }
+
+  .access {
+    gap: var(--s-96);
+    width: 50.63rem;
+    align-items: center;
+    margin-bottom: 10.63rem;
+  }
+
+  .access-header {
+    width: 45.63rem;
+  }
+
+  .supercharge {
+    width: 69.63rem;
+    align-items: center;
+    margin-bottom: 10.63rem;
+  }
+
+  .supercharge-header {
+    width: 45.63rem;
+  }
+
+  .supercharge-features {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--s-32);
+  }
+
+  .supercharge-feature {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .supercharge-feature-icon {
+    height: 2.5rem;
+    width: auto;
+  }
+
+  .testimonial,
+  .testimonial-first-row,
+  .testimonial-second-row {
+    gap: var(--s-96);
+    flex-direction: row;
+  }
+
+  .hero-action {
+    width: 45.63rem;
+  }
+
+  .hero-action-text span {
+    display: inline;
+  }
+
+  .footer {
+    padding: var(--s-40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-container {
+    width: 69.38rem;
+    gap: 8.44rem;
+    flex-direction: row;
+    justify-content: unset;
+  }
+
+  .footer-container-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--s-64);
+    row-gap: var(--s-8);
+  }
+
+  .footer-container-info a:nth-of-type(3) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .footer-container-info a:nth-of-type(5) {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .footer-container-socials {
+    margin-left: auto;
   }
 }
